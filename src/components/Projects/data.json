@@ -1,0 +1,26 @@
+[
+    {
+        "name": "string",
+        "imagePath": "600x400",
+        "description": "string",
+        "url": "string"
+    },
+    {
+        "name": "string",
+        "imagePath": "600x400",
+        "description": "string",
+        "url": "string"
+    },
+    {
+        "name": "string",
+        "imagePath": "600x400",
+        "description": "string",
+        "url": "string"
+    },
+    {
+        "name": "string",
+        "imagePath": "600x400",
+        "description": "string",
+        "url": "string"
+    }
+]
