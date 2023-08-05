@@ -1,26 +1,26 @@
 [
     {
-        "name": "string",
+        "name": "Rachadoc",
         "imagePath": "600x400",
-        "description": "string",
-        "url": "string"
+        "description": "Patient Management System designed to help clinics and hospitals easily manage patient information and appointment scheduling.",
+        "url": "https://github.com/ZackChOfficial/rachadoc"
     },
     {
-        "name": "string",
+        "name": "N-Puzzle ",
         "imagePath": "600x400",
-        "description": "string",
-        "url": "string"
+        "description": "N Puzzle is a sliding blocks game that takes place on a k * k grid with ((k * k) - 1) tiles each numbered from 1 to N.this project aims to solve n-puzzle game with A* and similar algorithms.",
+        "url": "https://n-puzzle-project.netlify.app/"
     },
     {
-        "name": "string",
+        "name": "Corewar",
         "imagePath": "600x400",
-        "description": "string",
-        "url": "string"
+        "description": "Core War is a 1984 programming game created by D. G. Jones and A. K. Dewdney in which two or more battle programs compete for control of a virtual computer. These battle programs are written in an abstract assembly language called Redcode.",
+        "url": "https://github.com/ZackChOfficial/corewar"
     },
     {
-        "name": "string",
+        "name": "Fractol",
         "imagePath": "600x400",
-        "description": "string",
-        "url": "string"
+        "description": "Fractol is a project aimed at exploring fractals, mathematical sets that exhibit a repeating pattern displayed at every scale.",
+        "url": "https://github.com/ZackChOfficial/Fractol"
     }
 ]

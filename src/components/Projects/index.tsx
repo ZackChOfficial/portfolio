@@ -13,7 +13,7 @@ async function getData (): Promise<[ProjectProps]> {
 
 export default async function Projects(): Promise<JSX.Element> {
     const projectsData = await getData()
-    console.log(projectsData)
+
     return <>
         <h3 className='text-slate-200 text-xl font-bold w-full mt-10' id="projects">Projects</h3>
         <div className='justify-center grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 gap-x-2 w-full'>
