@@ -23,9 +23,9 @@ export default function Hero(): JSX.Element {
                 <p className='md:indent-36 text-xl text-slate-200 text-justify py-1 pt-2 font-light px-2'>Experienced Full Stack Developer proficient in React and Django, specializing in building robust web applications. Skilled in creating seamless user experiences, designing RESTful APIs, and collaborating with cross-functional teams.</p>
                 <div className='text-lg my-4 w-full justify-between flex flex-wrap align-middle'>
                     <LinkWithIcon Icon={LinkedinIcon} color='#0072b1' href='https://www.linkedin.com/in/zakch/' >Linkedin</LinkWithIcon>
-                    <LinkWithIcon Icon={GithubIcon} color='#ffffff' href='https://www.linkedin.com/in/zakch/' >Github</LinkWithIcon>
-                    <LinkWithIcon Icon={TwitterIcon} color='#1ea1f1' href='https://www.linkedin.com/in/zakch/' >Twitter</LinkWithIcon>
-                    <LinkWithIcon Icon={HashnodeIcon} color='#2862ff' href='https://www.linkedin.com/in/zakch/' width={24} heigth={24} >Hashnode</LinkWithIcon>
+                    <LinkWithIcon Icon={GithubIcon} color='#ffffff' href='https://github.com/ZackChOfficial/' >Github</LinkWithIcon>
+                    <LinkWithIcon Icon={TwitterIcon} color='#1ea1f1' href='https://twitter.com/ZACKCH_OFF' >Twitter</LinkWithIcon>
+                    <LinkWithIcon Icon={HashnodeIcon} color='#2862ff' href='https://zchatouane.hashnode.dev/' width={24} heigth={24} >Hashnode</LinkWithIcon>
                 </div>
             </div>
 }
