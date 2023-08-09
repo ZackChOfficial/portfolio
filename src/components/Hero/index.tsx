@@ -5,9 +5,10 @@ import LinkWithIcon from '../LinkWithIcon'
 import GithubIcon from '../icons/github'
 import TwitterIcon from '../icons/twitter'
 import HashnodeIcon from '../icons/hashnode'
+import AnimatedContainer from '../AnimatedContainer'
 
-export default function Hero(): JSX.Element {
-    return  <div className="justify-start mt-4 bg-transparent sm:text-center sm:justify-center flex  items-start flex-wrap w-full">
+export default function Hero(): JSX.Element {    
+    return  <AnimatedContainer className="justify-start mt-4 bg-transparent sm:text-center sm:justify-center flex  items-start flex-wrap w-full">
                 <div className='w-full md:flex items-center'>
                 <Image
                 className='rounded-full h-20 w-20 sm-mx-auto mx-auto md:mx-8 my-4 ring-2 ring-blue-500 ring-offset-4 ring-offset-slate-800'
@@ -27,5 +28,5 @@ export default function Hero(): JSX.Element {
                     <LinkWithIcon Icon={TwitterIcon} color='#1ea1f1' href='https://twitter.com/ZACKCH_OFF' >Twitter</LinkWithIcon>
                     <LinkWithIcon Icon={HashnodeIcon} color='#2862ff' href='https://zchatouane.hashnode.dev/' width={24} heigth={24} >Hashnode</LinkWithIcon>
                 </div>
-            </div>
+            </AnimatedContainer>
 }
