@@ -1,5 +1,3 @@
-![thumbnail](https://raw.githubusercontent.com/ZackChOfficial/portfolio/main/public/images/thumbnail.png)
-
 ## Next.js Portfolio
 A personal portfolio website built with [Next.js](https://nextjs.org/docs)
 
