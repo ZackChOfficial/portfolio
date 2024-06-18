@@ -1,6 +1,6 @@
 import Hero from '../components/Hero'
 import Image from 'next/image'
-import background from 'public/images/background.png'
+import background from '~/images/background.png'
 import Projects from '@/components/Projects'
 import Blogs from '@/components/Blogs'
 import Contact from '@/components/Contact'

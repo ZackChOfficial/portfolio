@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import profilePic from 'public/images/pf.jpeg'
+import profilePic from '~/images/pf.jpeg'
 import LinkedinIcon from '../icons/linkedin'
 import LinkWithIcon from '../LinkWithIcon'
 import GithubIcon from '../icons/github'
