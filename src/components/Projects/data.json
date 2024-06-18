@@ -1,9 +1,9 @@
 [
     {
-        "name": "Rachadoc",
-        "imagePath": "https://placehold.co/600x400",
-        "description": "Patient Management System designed to help clinics and hospitals easily manage patient information and appointment scheduling.",
-        "url": "https://github.com/ZackChOfficial/rachadoc"
+        "name": "Babelchat",
+        "imagePath": "images/thumbnail.png",
+        "description": "SaaS application that enables realtime chat between users with automatic translation into multiple languages.",
+        "url": "https://github.com/ZackChOfficial/translation-app"
     },
     {
         "name": "N-Puzzle ",
