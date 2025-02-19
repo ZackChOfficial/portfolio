@@ -17,9 +17,14 @@ export default {
           '0%': { 'background-position': '100%' },
           '100%': { 'background-position': '-100%' },
         },
+        'fade-in': {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' }
+        }
       },
       animation: {
         shine: 'shine 5s linear infinite',
+        'fade-in': 'fade-in 1s ease-in forwards'
       },
     },
   },
