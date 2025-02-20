@@ -53,9 +53,9 @@ export default async function Home() {
 
         {/* Main Content */}
         <div className="w-full md:w-2/3 md:ml-[33%] px-4 md:px-0">
-          <div className="max-w-4xl mx-auto py-8 md:p-16">
-          <h2 className="text-xl md:text-2xl font-bold text-white" id="about" >About Me</h2>
-            <p className="text-base md:text-lg text-gray-400 mb-8 pt-4 animate-fade-in opacity-0 transition-opacity duration-1000">
+          <div className="max-w-4xl mx-auto py-8 md:p-16 animate-fade-in opacity-0 transition-opacity duration-1000">
+            <h2 className="text-xl md:text-2xl font-bold text-white" id="about" >About Me</h2>
+            <p className="text-base md:text-lg text-gray-400 mb-8 pt-4">
               {Data.about}
             </p>
 
