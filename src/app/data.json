@@ -1,0 +1,48 @@
+{
+    "name": "Zakaria Chatouane",
+    "title": "Full Stack Engineer",
+    "tagline": "I build robust, full-stack solutions that power seamless digital experiences.",
+    "about": "I’m a full stack engineer with five years of experience transforming ideas into robust, scalable applications. I specialize in crafting both backend and frontend solutions using Python, Django, TypeScript, Next.js, React Native, and Expo. My work is driven by a passion for clean, efficient code and an ever-evolving tech landscape. Beyond coding, I’m an avid reader of technical blogs, constantly exploring the latest trends and best practices to fuel my creativity and keep my skills sharp. This blend of hands-on expertise and a commitment to continuous learning ensures that every project I take on is built to excel in today’s dynamic digital environment.",
+    "experiences": [
+        {
+            "title": "Lead Engineer @ Efficity",
+            "date": "2023 — PRESENT",
+            "description": "Provided leadership for a 6-member team, delivering key business features that established Efficity's market dominance in real estate. Enhanced Elasticsearch integrations for Expo app search capabilities. Contributed to team growth through technical interviews, evaluating candidates' Django, Python, React, and TypeScript proficiency. Facilitated new hire integration by providing codebase guidance and project support.",
+            "technologies": ["Django", "TypeScript", "React", "Expo", "Celery"]
+          },
+          {
+            "title": "Full-Stack Engineer @ Efficity",
+            "date": "2021 — 2023",
+            "description": "Led full-stack development initiatives utilizing Python, Django, TypeScript, React, and Expo to deliver comprehensive features. Spearheaded the modernization of the CRM system through React implementation, resulting in enhanced user satisfaction and improved interface design. Established a foundational internal components system based on atomic design principles, which optimized development workflows and maintained consistency throughout applications.",
+            "technologies": ["Django", "TypeScript", "React", "Expo", "Celery"]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Build a Spotify Connected App",
+            "date": "2021 — PRESENT",
+            "description": "Web app for visualizing personalized Spotify data using the Spotify Web API. Features include the provision of REST APIs, user auth flows, Node, Express, React, Styled Components, and more.",
+            "technologies": ["React", "Express", "Spotify API"],
+            "image": "https://placehold.co/600x400/png",
+            "alt": "Zack Portfolio"
+        },
+        {
+            "title": "Build a Spotify Connected App",
+            "date": "2021 — PRESENT",
+            "description": "Web app for visualizing personalized Spotify data using the Spotify Web API. Features include the provision of REST APIs, user auth flows, Node, Express, React, Styled Components, and more.",
+            "technologies": ["React", "Express", "Spotify API"],
+            "image": "https://placehold.co/600x400/png",
+            "alt": "Zack Portfolio"
+        }
+    ],
+    "blogs": [
+        {
+            "title": "Python 3.13 No-GIL: What You Need to Know",
+            "date": "Feb 20, 2025",
+            "excerpt": "The Global Interpreter Lock (GIL) is a core component of CPython that has been part of the interpreter since...",
+            "readTime": 10,
+            "tags": ["Python", "Cpython", "Python 3.13"],
+            "link": "https://dev.to/zackch/python-313-no-gil-what-you-need-to-know-352i"
+          }
+    ]
+}
