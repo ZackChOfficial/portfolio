@@ -5,6 +5,7 @@ import Project from "@/components/project";
 import Navbar from "@/components/navbar";
 import Data from '@/app/data.json';
 import Blog from "@/components/blog";
+import SocialLinks from '@/components/social-links';
 
 export default async function Home() {
   return (
@@ -22,6 +23,7 @@ export default async function Home() {
           { name: 'Projects', href: '#projects' },
           { name: 'Blog', href: '#blog' },
         ]} />
+        <SocialLinks />
       </div>
       <div className="w-2/3 ml-[33%]">
       <div className="max-w-4xl mx-auto p-8 md:p-16">
