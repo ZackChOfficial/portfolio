@@ -4,7 +4,7 @@ import Data from '@/app/data.json';
 
 const SocialLinks = () => {
   return (
-    <div className="flex gap-4 mt-16 cursor-pointer transform transition-transform duration-200">
+    <div className="flex flex-wrap items-center gap-3 md:gap-4 mt-8 md:mt-16 cursor-pointer transform transition-transform duration-200">
       <a
         href={Data.linkedin}
         target="_blank"

@@ -76,7 +76,7 @@ function Project({
                     scale,
                 }}
             >
-                <div className="w-full h-48 relative">
+                <div className="w-full h-36 md:h-48 relative">
                     <Image 
                         src={image}
                         alt={alt}

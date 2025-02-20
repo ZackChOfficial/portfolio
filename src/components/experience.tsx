@@ -12,7 +12,7 @@ type ExperienceProps = {
 
 function Experience({ title, date, description, technologies }: ExperienceProps) {
   return (
-        <SpotlightCard className="mb-12 bg-slate-900" spotlightColor="rgba(0, 229, 255, 0.2)">
+        <SpotlightCard className="mb-8 md:mb-12 bg-slate-900 p-4 md:p-8" spotlightColor="rgba(0, 229, 255, 0.2)">
 
         <div className="flex items-center justify-between mb-4">
         <h3 className="text-xl text-white">{title}</h3>
