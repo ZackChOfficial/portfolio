@@ -1,21 +1,13 @@
-import Image from "next/image";
 import { Github, Linkedin, Instagram, FileText } from 'lucide-react';
 import Experience from "@/components/experience";
 import BlurText from "@/components/blur-text";
 import Project from "@/components/project";
-import Aurora from "../../aurora";
 import Navbar from "@/components/navbar";
 import Data from '@/app/data.json';
 import Blog from "@/components/blog";
 
 export default async function Home() {
   return (
-    <>
-    <Aurora
-      colorStops={["#0b4c6b", "#449e69", "#0b4c6b"]}
-      amplitude={4.6}
-      speed={1}
-    />
     <div className="min-h-screen flex bg-slate-900 text-gray-300">
       {/* Vertical Navigation */}
       <div className="w-1/3 fixed p-16">
@@ -85,6 +77,5 @@ export default async function Home() {
       </div>
       </div>
     </div>
-    </>
     );
 }
