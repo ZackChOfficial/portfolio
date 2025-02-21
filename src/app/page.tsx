@@ -37,7 +37,7 @@ export default async function Home() {
             animateBy="words" 
             direction="top" 
           />
-          <a href={`mailto:${Data.email}`}><ShinyText text={Data.email} className="mb-8 md:mb-12" disabled={false} speed={3}/></a>
+          <a href={`mailto:${Data.email}`} className="animate-fade-in opacity-0 transition-opacity duration-1000"><ShinyText text={Data.email} className="mb-8 md:mb-12" disabled={false} speed={3}/></a>
           {/* Mobile Social Links */}
           <div className="md:hidden">
               <SocialLinks />
