@@ -6,6 +6,8 @@
     "linkedin": "https://linkedin.com/in/zackch",
     "twitter": "https://x.com/ZACKCH_OFF",
     "devTo": "https://dev.to/zackch",
+    "resume": "/resume.pdf",
+    "email": "zack.chatouane@gmail.com",
     "experiences": [
         {
             "title": "Lead Engineer @ Efficity",
@@ -22,20 +24,35 @@
     ],
     "projects": [
         {
-            "title": "Build a Spotify Connected App",
-            "date": "2021 — PRESENT",
-            "description": "Web app for visualizing personalized Spotify data using the Spotify Web API. Features include the provision of REST APIs, user auth flows, Node, Express, React, Styled Components, and more.",
-            "technologies": ["React", "Express", "Spotify API"],
-            "image": "https://placehold.co/600x400/png",
-            "alt": "Zack Portfolio"
+            "title": "Cloudsehha",
+            "description": " A comprehensive medical practice management system built with Next.js, React Query, Ant Design, and Tailwind CSS, enabling doctors and assistants to manage patient records, generate medical documents, and track appointments. The platform features financial analytics with customizable filters, integrated calendar scheduling, complete patient history tracking, and role-based access control for optimized clinical workflow.",
+            "technologies": ["Nextjs", "Typescript", "React-query", "Tailwind", "Ant design"],
+            "image": "/cloudseha.png",
+            "alt": "Cloudsehha Project"
         },
         {
-            "title": "Build a Spotify Connected App",
-            "date": "2021 — PRESENT",
-            "description": "Web app for visualizing personalized Spotify data using the Spotify Web API. Features include the provision of REST APIs, user auth flows, Node, Express, React, Styled Components, and more.",
-            "technologies": ["React", "Express", "Spotify API"],
-            "image": "https://placehold.co/600x400/png",
-            "alt": "Zack Portfolio"
+            "title": "babel Chat",
+            "description": "SaaS application that enables realtime chat between users with automatic translation into multiple languages.",
+            "technologies": ["Nextjs", "TypeScript", "Zustand", "Zod", "Firebase", "Stripe"],
+            "image": "/babelchat.png",
+            "alt": "babel Chat Project",
+            "href": "https://github.com/ZackChOfficial/translation-app"
+        },
+        {
+            "title": "Portfolio",
+            "description": "Personal portfolio website built with Next.js, Tailwind CSS, and React Spring animations to showcase development projects.",
+            "technologies": ["Nextjs", "TypeScript", "React spring", "Tailwind"],
+            "image": "/portfolio.png",
+            "alt": "Zack Portfolio",
+            "href": "https://github.com/ZackChOfficial/portfolio"
+        },
+        {
+            "title": "Corewar @ 1337",
+            "description": "Core War is a 1984 programming game created by D. G. Jones and A. K. Dewdney in which two or more battle programs compete for control of a virtual computer. These battle programs are written in an abstract assembly language called Redcode.",
+            "technologies": ["C", "SDL2"],
+            "image": "/corwar.png",
+            "alt": "Corewar 1337 Project",
+            "href": "https://github.com/ZackChOfficial/corewar"
         }
     ],
     "blogs": [

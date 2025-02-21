@@ -3,10 +3,11 @@ import React, { useRef } from 'react';
 import Image from 'next/image';
 import ShinyText from './shiny-text';
 import { motion, useMotionValue, useSpring } from "framer-motion";
+import { ArrowUpRight } from 'lucide-react';
 
 type ProjectProps = {
     title: string;
-    date: string;
+    href?: string;
     description: string;
     technologies: string[];
     image: string;
@@ -23,13 +24,13 @@ const springValues = {
 
 function Project({ 
     title, 
-    date, 
     description, 
     technologies, 
     image, 
     alt,
     rotateAmplitude = 9,
-    scaleOnHover = 1.05 
+    scaleOnHover = 1.05,
+    href
 }: ProjectProps) {
     const ref = useRef<HTMLDivElement>(null);
     const rotateX = useSpring(useMotionValue(0), springValues);
@@ -85,7 +86,10 @@ function Project({
                     />
                 </div>
                 <div className="p-6">
+                    <div className="flex justify-between items-start">
                     <h3 className="text-lg text-white mb-3">{title}</h3>
+                    {href && <a href={href} ><ArrowUpRight className="w-5 h-5 text-gray-500 group-hover:text-gray-300 transition-colors" /></a>}
+                    </div>
                     <p className="text-sm mb-4">
                         {description}
                     </p>

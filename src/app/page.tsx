@@ -6,38 +6,40 @@ import Data from '@/app/data.json';
 import Blog from "@/components/blog";
 import SocialLinks from '@/components/social-links';
 import MobileNav from "@/components/mobile-nav";
+import ShinyText from "@/components/shiny-text";
 
 export default async function Home() {
   return (
     <div className="min-h-screen bg-slate-900 text-gray-300">
       {/* Mobile Navigation */}
-      <div className="md:hidden fixed top-0 left-0 right-0 z-50 bg-slate-900/80 backdrop-blur-sm">
+      <div className="md:hidden fixed top-0 left-0 right-0 z-50 bg-slate-800/80 backdrop-blur-sm">
         <MobileNav items={[
           { name: 'About', href: '#about' },
           { name: 'Experience', href: '#experience' },
           { name: 'Projects', href: '#projects' },
           { name: 'Blog', href: '#blog' },
-        ]} />
+        ]} link={Data.resume} />
       </div>
 
       <div className="flex flex-col md:flex-row">
         {/* Sidebar/Header Section */}
         <div className="w-full md:w-1/3 md:fixed p-4 md:p-16 pt-20 md:pt-16">
-          <h1 className="text-3xl md:text-4xl font-bold text-white">
+          <h1 className="text-3xl md:text-4xl font-bold text-white ">
             <BlurText text={Data.name} delay={50} animateBy="letters" direction="top" />
           </h1>
           <h3 className="text-lg md:text-xl font-bold my-2">
             <BlurText text={Data.title} delay={50} animateBy="letters" direction="top" />
           </h3>
           <BlurText 
-            className="text-base md:text-lg text-gray-400 mb-8 md:mb-24" 
+            className="text-base md:text-lg text-gray-400 mb-2" 
             text={Data.tagline} 
             delay={100} 
             animateBy="words" 
             direction="top" 
           />
+          <a href={`mailto:${Data.email}`}><ShinyText text={Data.email} className="mb-8 md:mb-12" disabled={false} speed={3}/></a>
           {/* Mobile Social Links */}
-          <div className="md:hidden mb-8">
+          <div className="md:hidden">
               <SocialLinks />
           </div>
           <div className="hidden md:block">
@@ -46,7 +48,7 @@ export default async function Home() {
               { name: 'Experience', href: '#experience' },
               { name: 'Projects', href: '#projects' },
               { name: 'Blog', href: '#blog' },
-            ]} />
+            ]} link={Data.resume} />
             <SocialLinks />
           </div>
         </div>
@@ -81,7 +83,7 @@ export default async function Home() {
                   <Project
                     key={index}
                     title={project.title}
-                    date={project.date}
+                    href={project.href}
                     description={project.description}
                     technologies={project.technologies}
                     image={project.image}
