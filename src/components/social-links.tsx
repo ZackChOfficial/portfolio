@@ -1,5 +1,5 @@
 import React from 'react';
-import { Linkedin, FileText, X } from 'lucide-react';
+import { Linkedin, FileText, X, Github } from 'lucide-react';
 import Data from '@/app/data.json';
 
 const SocialLinks = () => {
@@ -28,6 +28,14 @@ const SocialLinks = () => {
         className="text-gray-400 hover:text-teal-300 transition-colors"
       >
         <X size={24} />
+      </a>
+      <a
+        href={Data.github}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-gray-400 hover:text-teal-300 transition-colors"
+      >
+        <Github size={24} />
       </a>
     </div>
   );
